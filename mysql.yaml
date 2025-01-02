@@ -3,7 +3,7 @@
   become: yes
   vars:
     mysql_root_password: ExpenseApp@1
-    login_host: mysql.aws81s.store
+    login_host: mysql.devopsclass.tech
   tasks:
   - name: ansible to install pymysql
     ansible.builtin.pip:
